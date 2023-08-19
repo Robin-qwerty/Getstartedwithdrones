@@ -1,0 +1,864 @@
+<mxfile host="app.diagrams.net" modified="2023-08-11T19:22:20.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="XqvLEn_TZYdXPDuosJZy" version="21.6.6" type="device">
+  <diagram name="Page-1" id="VN8qZxtXXlo-tAgvBBWl">
+    <mxGraphModel dx="1982" dy="3045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.882;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF4500;entryX=0.263;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="hRROGRAg0UBDKmwXvD76-16" edge="1" source="C29Ci9V_xGmiIyMx4Oli-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350.13" y="236" as="sourcePoint" />
+            <mxPoint x="1350" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1360" y="250" />
+              <mxPoint x="1370" y="250" />
+              <mxPoint x="1370" y="300" />
+              <mxPoint x="1350" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-69" value="&lt;div&gt;$1500 - $2000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.684" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFA500;entryX=0.104;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C29Ci9V_xGmiIyMx4Oli-52" target="hRROGRAg0UBDKmwXvD76-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-20" value="$1000 - $1500" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-19">
+          <mxGeometry x="0.0444" y="-1" relative="1" as="geometry">
+            <mxPoint x="6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6md-Wqzo7YViYJKCgJG-103" target="hRROGRAg0UBDKmwXvD76-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="645" />
+              <mxPoint x="1470" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-15" value="&lt;div&gt;Compatibility with various&lt;/div&gt;&lt;div&gt;FPV goggles and equipment&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-14">
+          <mxGeometry x="-0.4173" y="2" relative="1" as="geometry">
+            <mxPoint x="-12" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.969;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="b6md-Wqzo7YViYJKCgJG-103" target="hRROGRAg0UBDKmwXvD76-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380" y="715" />
+              <mxPoint x="1420" y="715" />
+              <mxPoint x="1420" y="875" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-13" value="&lt;div&gt;I&#39;m interested in GPS functionality&lt;/div&gt;&lt;div&gt;for features like speed feedback&lt;/div&gt;&lt;div&gt;and failsafe rescue&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-7">
+          <mxGeometry x="0.3096" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="b6md-Wqzo7YViYJKCgJG-103" target="hRROGRAg0UBDKmwXvD76-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="715" />
+              <mxPoint x="1360" y="715" />
+              <mxPoint x="1360" y="795" />
+              <mxPoint x="1315" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-12" value="&lt;div&gt;I want a durable and&lt;/div&gt;&lt;div&gt;crash-resistant design to&lt;/div&gt;&lt;div&gt;withstand tough flights&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-6">
+          <mxGeometry x="-0.2141" relative="1" as="geometry">
+            <mxPoint x="-7" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="b6md-Wqzo7YViYJKCgJG-103" target="hRROGRAg0UBDKmwXvD76-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="715" />
+              <mxPoint x="1210" y="715" />
+              <mxPoint x="1210" y="795" />
+              <mxPoint x="1240" y="795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-10" value="&lt;div&gt;High-definition video&lt;/div&gt;&lt;div&gt;recording is a priority for&lt;/div&gt;&lt;div&gt;capturing quality footage&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-5">
+          <mxGeometry x="-0.1896" y="1" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.059;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="C29Ci9V_xGmiIyMx4Oli-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1227" y="66" as="sourcePoint" />
+            <mxPoint x="1190" y="196" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1227" y="110" />
+              <mxPoint x="1210" y="110" />
+              <mxPoint x="1210" y="170" />
+              <mxPoint x="1220" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-33" value="&lt;div&gt;Exploring and&lt;/div&gt;&lt;div&gt;capturing scenic views&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.301" y="-2" relative="1" as="geometry">
+            <mxPoint x="-13" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.615;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#000000;entryX=0.647;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-48" target="C29Ci9V_xGmiIyMx4Oli-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="66" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="131" />
+              <mxPoint x="1320" y="131" />
+            </Array>
+            <mxPoint x="1330" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-37" value="&lt;div&gt;(Trying out) racing&lt;/div&gt;&lt;div&gt;for the thrill&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-36" vertex="1" connectable="0">
+          <mxGeometry x="0.0595" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.876;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.912;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-48" target="C29Ci9V_xGmiIyMx4Oli-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="196" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1370" y="110" />
+              <mxPoint x="1390" y="110" />
+              <mxPoint x="1390" y="140" />
+              <mxPoint x="1359" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-93" value="&lt;div&gt;indoors/outdoors&lt;/div&gt;&lt;div&gt;cinematic FPV shots &lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-92" vertex="1" connectable="0">
+          <mxGeometry x="-0.3329" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.324;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.353;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-48" edge="1" target="C29Ci9V_xGmiIyMx4Oli-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="66" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint x="1270" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-35" value="&lt;div&gt;Performing freestyle&lt;/div&gt;&lt;div&gt;tricks and maneuvers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-34" vertex="1" connectable="0">
+          <mxGeometry x="0.523" y="2" relative="1" as="geometry">
+            <mxPoint x="-5" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-26" target="b6md-Wqzo7YViYJKCgJG-77" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="-550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="-470" />
+              <mxPoint x="940" y="-470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-76" value="&lt;div&gt;I&#39;m not sure yet, I&#39;d like more information about&lt;/div&gt;&lt;div&gt;the different types of drones and their uses&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-75" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-26" value="&lt;div&gt;&lt;b&gt;What kind of drone are you interested in?&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="-420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-26" target="C29Ci9V_xGmiIyMx4Oli-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1072" y="-400" as="sourcePoint" />
+            <mxPoint x="1321" y="-310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1301" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-28" value="&lt;div&gt;An FPV (First Person View) drone&lt;/div&gt;&lt;div&gt;for acrobatic flying and racing&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="C29Ci9V_xGmiIyMx4Oli-27" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-26" target="C29Ci9V_xGmiIyMx4Oli-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="843" y="-400" as="sourcePoint" />
+            <mxPoint x="504" y="-310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="364" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-30" value="&lt;div&gt;A camera drone for&lt;/div&gt;&lt;div&gt;photography and videography&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="C29Ci9V_xGmiIyMx4Oli-29" connectable="0" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#00FF00;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-31" target="hRROGRAg0UBDKmwXvD76-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-50" value="&lt;div&gt;Beginner, I&#39;m new to FPV drones&lt;/div&gt;&lt;div&gt;and want a user-friendly setup&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="C29Ci9V_xGmiIyMx4Oli-49" vertex="1" connectable="0">
+          <mxGeometry x="-0.1571" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF8000;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-31" target="C29Ci9V_xGmiIyMx4Oli-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-55" value="&lt;div&gt;Intermediate, I have some experience&lt;/div&gt;&lt;div&gt;with (pre-built) FPV drones&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="C29Ci9V_xGmiIyMx4Oli-53" vertex="1" connectable="0">
+          <mxGeometry x="-0.2556" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-31" target="C29Ci9V_xGmiIyMx4Oli-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="-290" />
+              <mxPoint x="1420" y="-150" />
+            </Array>
+            <mxPoint x="1390" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-56" value="&lt;div&gt;Advanced, I&#39;m experienced and&lt;/div&gt;&lt;div&gt;want to build a custom setup&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="C29Ci9V_xGmiIyMx4Oli-54" vertex="1" connectable="0">
+          <mxGeometry x="0.3378" y="-1" relative="1" as="geometry">
+            <mxPoint x="-19" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-31" value="&lt;div&gt;What&#39;s your experience level with FPV flying?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1221" y="-310" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-32" target="b6md-Wqzo7YViYJKCgJG-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284" y="-255.00000000000023" as="sourcePoint" />
+            <mxPoint x="281" y="-110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="222" y="-290" />
+              <mxPoint x="222" y="-170" />
+              <mxPoint x="281" y="-170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-35" value="&lt;div&gt;Aerial photography for&lt;/div&gt;&lt;div&gt;personal/family use&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="C29Ci9V_xGmiIyMx4Oli-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.2405" relative="1" as="geometry">
+            <mxPoint x="15" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-32" target="b6md-Wqzo7YViYJKCgJG-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="-110" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-46" value="&lt;div&gt;Professional photography/videography&lt;/div&gt;&lt;div&gt;for events or clients&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="C29Ci9V_xGmiIyMx4Oli-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.1127" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.473;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-32" target="C29Ci9V_xGmiIyMx4Oli-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="544" y="-290" />
+              <mxPoint x="544" y="-201" />
+            </Array>
+            <mxPoint x="461.9999999999998" y="-290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-47" value="&lt;div&gt;Aerial surveying or mapping&lt;/div&gt;&lt;div&gt;for work purposes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="C29Ci9V_xGmiIyMx4Oli-45" vertex="1" connectable="0">
+          <mxGeometry x="0.3269" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-32" value="What&#39;s your primary use for the camera drone?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="284" y="-310" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-33" target="hRROGRAg0UBDKmwXvD76-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="286" y="280" />
+              <mxPoint x="230" y="280" />
+              <mxPoint x="230" y="412" />
+            </Array>
+            <mxPoint x="215" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-3" value="&lt;div&gt;Basic flight modes&lt;/div&gt;&lt;div&gt;(auto-takeoff, auto-landing,&lt;/div&gt;&lt;div&gt;and GPS-based positioning)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.301" y="-2" relative="1" as="geometry">
+            <mxPoint x="13" y="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-33" target="hRROGRAg0UBDKmwXvD76-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="326.1100000000001" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-9" value="&lt;div&gt;Advanced intelligent flight modes&lt;/div&gt;&lt;div&gt;(subject tracking, waypoints, etc.)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-7" vertex="1" connectable="0">
+          <mxGeometry x="0.523" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-33" target="hRROGRAg0UBDKmwXvD76-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="366" y="280" />
+              <mxPoint x="430" y="280" />
+              <mxPoint x="430" y="412" />
+            </Array>
+            <mxPoint x="441.1100000000001" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-10" value="I&#39;m not sure yet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-8" vertex="1" connectable="0">
+          <mxGeometry x="0.0595" y="-1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-33" value="What level of flight automation do you prefer?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="246.10999999999999" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-42" target="C29Ci9V_xGmiIyMx4Oli-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189.98000000000002" y="266" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="272" y="100" />
+              <mxPoint x="212" y="100" />
+              <mxPoint x="212" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-18" value="&lt;div&gt;High-resolution camera&lt;/div&gt;&lt;div&gt;with 4K/6K video capability&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-15" vertex="1" connectable="0">
+          <mxGeometry x="0.0546" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-42" target="C29Ci9V_xGmiIyMx4Oli-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="371.98" y="286" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="342" y="160" />
+              <mxPoint x="366" y="160" />
+              <mxPoint x="366" y="210" />
+              <mxPoint x="366" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-19" value="&lt;div&gt;Interchangeable&lt;/div&gt;&lt;div&gt;lenses for versatility&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-16" vertex="1" connectable="0">
+          <mxGeometry x="0.138" y="-2" relative="1" as="geometry">
+            <mxPoint x="10" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-42" target="C29Ci9V_xGmiIyMx4Oli-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.98" y="256" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="382" y="100" />
+              <mxPoint x="442" y="100" />
+              <mxPoint x="442" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-20" value="&lt;div&gt;Pro-level features like RAW&lt;/div&gt;&lt;div&gt;image capture, multiple codecs,&lt;/div&gt;&lt;div&gt;and Log profiles&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-17" vertex="1" connectable="0">
+          <mxGeometry x="0.5633" relative="1" as="geometry">
+            <mxPoint y="-91" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-42" target="C29Ci9V_xGmiIyMx4Oli-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="276.98" y="286" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="312" y="160" />
+              <mxPoint x="286" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-51" value="&lt;div&gt;I&#39;m not sure yet or&lt;/div&gt;&lt;div&gt;doesn&#39;t really matter&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-50" vertex="1" connectable="0">
+          <mxGeometry x="0.4574" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-42" value="What level of camera quality and features are you looking for?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240.99" y="40" width="177.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-43" target="b6md-Wqzo7YViYJKCgJG-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="-80" />
+              <mxPoint x="697" y="-80" />
+              <mxPoint x="697" y="-50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-30" value="&lt;div&gt;Lidar or multispectral capabilities&lt;/div&gt;&lt;div&gt;for specialized applications&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-25" vertex="1" connectable="0">
+          <mxGeometry x="0.1605" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-43" target="b6md-Wqzo7YViYJKCgJG-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-28" value="&lt;div&gt;High-resolution imager&lt;/div&gt;&lt;div&gt;&amp;nbsp;for detailed mapping&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.5196" y="1" relative="1" as="geometry">
+            <mxPoint x="36" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-43" target="b6md-Wqzo7YViYJKCgJG-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="591" y="-130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-29" value="&lt;div&gt;Thermal imaging for&lt;/div&gt;&lt;div&gt;inspection and analysis&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.0348" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-43" value="What kind of data collection capabilities are you looking for?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="464" y="-200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-48" value="What&#39;s your primary goal for flying FPV drones?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="26" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF8000;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-51" target="C29Ci9V_xGmiIyMx4Oli-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="16" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1270" y="-82" />
+              <mxPoint x="1225" y="-82" />
+              <mxPoint x="1225" y="-24" />
+              <mxPoint x="1258" y="-24" />
+              <mxPoint x="1258" y="26" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-46" value="No, I prefer a pre-built drone&lt;div&gt;with customization options&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-44" vertex="1" connectable="0">
+          <mxGeometry x="0.0494" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-51" target="C29Ci9V_xGmiIyMx4Oli-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1331" y="16" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1330" y="-82" />
+              <mxPoint x="1375" y="-82" />
+              <mxPoint x="1375" y="-24" />
+              <mxPoint x="1343" y="-24" />
+              <mxPoint x="1343" y="26" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-47" value="&lt;div&gt;Yes, I enjoy building and&lt;/div&gt;&lt;div&gt;customizing my own drones&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-45" vertex="1" connectable="0">
+          <mxGeometry x="0.1047" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-51" value="Are you interested in DIY drone building and tuning?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1221" y="-170" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00FF00;entryX=0.011;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-52" target="b6md-Wqzo7YViYJKCgJG-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="216" />
+              <mxPoint x="1180" y="316" />
+              <mxPoint x="1200" y="316" />
+              <mxPoint x="1200" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-67" value="Under $400" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-62" vertex="1" connectable="0">
+          <mxGeometry x="-0.3305" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=0.474;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-52" target="hRROGRAg0UBDKmwXvD76-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1390" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1410" y="216" />
+              <mxPoint x="1410" y="316" />
+              <mxPoint x="1390" y="316" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-71" value="$2000+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-64" vertex="1" connectable="0">
+          <mxGeometry x="0.1017" y="2" relative="1" as="geometry">
+            <mxPoint x="-5" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.059;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#32CD32;entryX=0.118;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="C29Ci9V_xGmiIyMx4Oli-52" target="b6md-Wqzo7YViYJKCgJG-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="300" />
+              <mxPoint x="1230" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-68" value="$400 - $600" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.6462" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFF00;entryX=0.495;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="b6md-Wqzo7YViYJKCgJG-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1291" y="450" as="targetPoint" />
+            <mxPoint x="1290" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1290" y="350" />
+              <mxPoint x="1290" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-105" value="&lt;div&gt;$800 - $1000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-104" vertex="1" connectable="0">
+          <mxGeometry x="-0.5187" relative="1" as="geometry">
+            <mxPoint x="2" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9ACD32;entryX=0.303;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C29Ci9V_xGmiIyMx4Oli-52" target="b6md-Wqzo7YViYJKCgJG-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1260" y="320" />
+              <mxPoint x="1260" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-21" value="$600 - $800" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-18">
+          <mxGeometry x="-0.0342" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C29Ci9V_xGmiIyMx4Oli-52" value="What is your budget range for an FPV drone and everything you need to get started flying?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="190" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-21" value="&lt;div&gt;...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="761" y="-240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-23" value="&lt;div&gt;...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="791" y="-140" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-24" value="&lt;div&gt;...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="761" y="-60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="b6md-Wqzo7YViYJKCgJG-77" target="C29Ci9V_xGmiIyMx4Oli-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="-450" />
+              <mxPoint x="980" y="-450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-77" value="&lt;ol&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Camera Drones&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Use&lt;/strong&gt;: Aerial photography and videography.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Common Applications&lt;/strong&gt;: Capturing stunning aerial views, filming events, real estate photography, filmmaking, and more.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;FPV Racing Drones&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Use&lt;/strong&gt;: Acrobatic flying and racing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Common Applications&lt;/strong&gt;: Participating in thrilling drone racing events, performing aerial stunts and tricks, exploring unique perspectives through goggles.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;FPV Cinematic Drones&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Use&lt;/strong&gt;: Aerial filmmaking and creative content creation.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Common Applications&lt;/strong&gt;: Capturing dynamic and cinematic shots, creating visually engaging content for films, commercials, and online media.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Aerial Surveying Drones&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Use&lt;/strong&gt;: Gathering data for mapping and analysis.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Common Applications&lt;/strong&gt;: Land surveying, mapping terrain, creating 3D models, monitoring agricultural fields, and inspecting large structures.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Environmental Monitoring Drones&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Use&lt;/strong&gt;: Studying natural environments and ecosystems.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Common Applications&lt;/strong&gt;: Tracking wildlife, monitoring pollution levels, analyzing deforestation, studying climate patterns.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Scientific Research Drones&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Use&lt;/strong&gt;: Conducting experiments and data collection.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Common Applications&lt;/strong&gt;: Studying wildlife behavior, analyzing atmospheric conditions, tracking migratory patterns, and observing natural phenomena.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="485" y="-1040" width="910" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="b6md-Wqzo7YViYJKCgJG-87" target="C29Ci9V_xGmiIyMx4Oli-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250.99" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="276" y="-40" />
+              <mxPoint x="216" y="-40" />
+              <mxPoint x="216" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-80" value="&lt;div&gt;I&#39;m a beginner and&lt;/div&gt;&lt;div&gt;need an easy-to-fly drone&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-79" vertex="1" connectable="0">
+          <mxGeometry x="0.0546" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="b6md-Wqzo7YViYJKCgJG-87" target="C29Ci9V_xGmiIyMx4Oli-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.99" y="124" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="29" />
+              <mxPoint x="330" y="30" />
+              <mxPoint x="333" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-82" value="&lt;div&gt;Interchangeable&lt;/div&gt;&lt;div&gt;lenses for versatility&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-81" vertex="1" connectable="0">
+          <mxGeometry x="0.138" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="b6md-Wqzo7YViYJKCgJG-87" target="C29Ci9V_xGmiIyMx4Oli-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="386" y="-40" />
+              <mxPoint x="446" y="-40" />
+              <mxPoint x="446" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-84" value="&lt;div&gt;I&#39;m an experienced pilot and seek a&lt;/div&gt;&lt;div&gt;high-performancedrone for specialized flying&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-83" vertex="1" connectable="0">
+          <mxGeometry x="0.5633" relative="1" as="geometry">
+            <mxPoint x="-2" y="-85" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-87" value="What&#39;s your level of experience with drone flying?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240.99" y="-116" width="177.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.28;entryDx=0;entryDy=0;strokeColor=#00FF00;entryPerimeter=0;" parent="1" source="b6md-Wqzo7YViYJKCgJG-102" target="b6md-Wqzo7YViYJKCgJG-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="451" />
+              <mxPoint x="1160" y="625" />
+              <mxPoint x="1190" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-95" value="&lt;div&gt;Tiny whoop (65mm or smaller)&lt;/div&gt;&lt;div&gt;with 1S/2S battery and&lt;/div&gt;&lt;div&gt;around 1” to 1.5&quot; propellers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-94" vertex="1" connectable="0">
+          <mxGeometry x="-0.3305" y="-1" relative="1" as="geometry">
+            <mxPoint x="28" y="61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF8000;" parent="1" source="b6md-Wqzo7YViYJKCgJG-102" target="b6md-Wqzo7YViYJKCgJG-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1291" y="481" />
+              <mxPoint x="1340" y="481" />
+              <mxPoint x="1340" y="531" />
+              <mxPoint x="1290" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-97" value="&lt;div&gt;Standard (150mm - 250mm)&lt;/div&gt;&lt;div&gt;with 4S/6S battery and&lt;/div&gt;&lt;div&gt;around 3&quot; to 5&quot; propellers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-96" vertex="1" connectable="0">
+          <mxGeometry x="-0.684" relative="1" as="geometry">
+            <mxPoint x="39" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.79;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="481" />
+              <mxPoint x="1430" y="481" />
+              <mxPoint x="1430" y="585" />
+              <mxPoint x="1310" y="585" />
+              <mxPoint x="1310" y="605" />
+            </Array>
+            <mxPoint x="1360" y="471.18000000000006" as="sourcePoint" />
+            <mxPoint x="1310.2999999999997" y="605.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-99" value="&lt;div&gt;Long-range (250mm or larger)&lt;/div&gt;&lt;div&gt;with 6S/8S battery and&lt;/div&gt;&lt;div&gt;around 5&quot; to 7&quot; propellers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-98" vertex="1" connectable="0">
+          <mxGeometry x="0.1017" y="2" relative="1" as="geometry">
+            <mxPoint x="-39" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0;entryDx=0;entryDy=0;exitX=0.182;exitY=0.978;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;strokeColor=#00FF00;" parent="1" source="b6md-Wqzo7YViYJKCgJG-102" target="b6md-Wqzo7YViYJKCgJG-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="531" />
+              <mxPoint x="1270" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-101" value="&lt;div&gt;Micro (75mm - 150mm)&lt;/div&gt;&lt;div&gt;with 2S/3S battery and&lt;/div&gt;&lt;div&gt;around 2&quot; to 3.5&quot; propellers&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-100" vertex="1" connectable="0">
+          <mxGeometry x="-0.6462" y="1" relative="1" as="geometry">
+            <mxPoint x="-24" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.999;entryY=0.269;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="b6md-Wqzo7YViYJKCgJG-102" target="b6md-Wqzo7YViYJKCgJG-102" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="421" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="461" />
+              <mxPoint x="1450" y="491" />
+              <mxPoint x="1520" y="491" />
+              <mxPoint x="1520" y="441" />
+              <mxPoint x="1371" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-107" value="&lt;div&gt;I&#39;m new to these&lt;/div&gt;&lt;div&gt;terms and sizes&lt;/div&gt;and want more info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b6md-Wqzo7YViYJKCgJG-106" vertex="1" connectable="0">
+          <mxGeometry x="-0.1247" y="1" relative="1" as="geometry">
+            <mxPoint x="-7" y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-102" value="What&#39;s your preferred drone size?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1211" y="431" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6md-Wqzo7YViYJKCgJG-103" target="hRROGRAg0UBDKmwXvD76-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-11" value="&lt;div&gt;Ease of maintenance and&lt;/div&gt;&lt;div&gt;repairability for long-term use&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-4">
+          <mxGeometry x="0.4267" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b6md-Wqzo7YViYJKCgJG-103" target="hRROGRAg0UBDKmwXvD76-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="640" />
+              <mxPoint x="1160" y="895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-9" value="&lt;div&gt;I&#39;d like longer flight time for&lt;/div&gt;&lt;div&gt;extended flying sessions. &lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-8">
+          <mxGeometry x="-0.2077" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="100" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6md-Wqzo7YViYJKCgJG-103" value="&lt;div&gt;After considering your experience level, goals, and budget, do you have any specific features or functionalities that you&#39;d like to prioritize in an FPV drone?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="605" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-2" value="&lt;div&gt;...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="875" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-16" target="b6md-Wqzo7YViYJKCgJG-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-26" value="digital/analog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-22">
+          <mxGeometry x="0.1496" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-16" value="Would you prefer a digital FPV system or an analog FPV system?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="351" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-27" value="What is your budget range for the camera drone and necessary accessories?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241.11" y="400" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-28" value="&lt;div&gt;...&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="585" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.899;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF4500;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-27" target="hRROGRAg0UBDKmwXvD76-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="394" y="454" as="sourcePoint" />
+            <mxPoint x="384" y="564" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="394" y="464" />
+              <mxPoint x="404" y="464" />
+              <mxPoint x="404" y="514" />
+              <mxPoint x="384" y="514" />
+              <mxPoint x="384" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-30" value="&lt;div&gt;$2000 - $3000&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-29">
+          <mxGeometry x="-0.684" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFA500;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.663;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-27" target="hRROGRAg0UBDKmwXvD76-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="565" as="targetPoint" />
+            <mxPoint x="354" y="454" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="354" y="560" />
+              <mxPoint x="341" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-32" value="$1500 - $2000" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-31">
+          <mxGeometry x="0.0444" y="-1" relative="1" as="geometry">
+            <mxPoint x="6" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#00FF00;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-27" target="hRROGRAg0UBDKmwXvD76-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="247" y="647" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="214" y="430" />
+              <mxPoint x="214" y="530" />
+              <mxPoint x="234" y="530" />
+              <mxPoint x="234" y="600" />
+            </Array>
+            <mxPoint x="240" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-34" value="Under $400" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-33">
+          <mxGeometry x="-0.3305" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1.003;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-27" target="hRROGRAg0UBDKmwXvD76-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="424" y="565" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="444" y="430" />
+              <mxPoint x="444" y="530" />
+              <mxPoint x="424" y="530" />
+              <mxPoint x="424" y="600" />
+            </Array>
+            <mxPoint x="414" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-36" value="$3000+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-35">
+          <mxGeometry x="0.1017" y="2" relative="1" as="geometry">
+            <mxPoint x="14" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.076;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#32CD32;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-27" target="hRROGRAg0UBDKmwXvD76-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="264" y="644" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="254" y="514" />
+              <mxPoint x="264" y="514" />
+              <mxPoint x="264" y="590" />
+            </Array>
+            <mxPoint x="254" y="454" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-38" value="&lt;div&gt;$400 - $800&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-37">
+          <mxGeometry x="-0.6462" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFF00;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.488;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-27" target="hRROGRAg0UBDKmwXvD76-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="644" as="targetPoint" />
+            <mxPoint x="324" y="454" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="324" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-40" value="&lt;div&gt;$1200 - $1500&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-39">
+          <mxGeometry x="-0.5187" relative="1" as="geometry">
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#9ACD32;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.311;exitY=1.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-27" target="hRROGRAg0UBDKmwXvD76-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="293" y="645" as="targetPoint" />
+            <mxPoint x="294" y="454" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="294" y="560" />
+              <mxPoint x="307" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-42" value="$800 - $1200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-41">
+          <mxGeometry x="-0.0342" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hRROGRAg0UBDKmwXvD76-43" target="C29Ci9V_xGmiIyMx4Oli-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1075" y="46" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-45" value="&lt;div&gt;Yes, I have some practice&lt;/div&gt;&lt;div&gt;in an FPV simulator&lt;/div&gt;/&lt;br&gt;No, I have not" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hRROGRAg0UBDKmwXvD76-44">
+          <mxGeometry x="-0.366" relative="1" as="geometry">
+            <mxPoint x="15" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRROGRAg0UBDKmwXvD76-43" value="Have you flown in a simulator before like Liftoff, DRL or Velocidrone?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-140" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

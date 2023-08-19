@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1, h2, p {
+    margin-bottom: 10px;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  /* Style for the radio buttons */
+  .option input[type="radio"] {
+    transform: scale(1.2); /* Increase the size of the radio buttons */
+    margin-right: 10px; /* Add some spacing between the radio button and the label */
+  }
+
+  /* Style for the selected radio buttons */
+  .option input[type="radio"]:checked + label {
+    color: #1b1b1b; /* Change the color of the label when the radio button is selected */
+  }
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  /* Style for the additional information box */
+  .info-box {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
