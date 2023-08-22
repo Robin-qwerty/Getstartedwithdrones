@@ -341,8 +341,65 @@
       </div>
     </div>
 
-    <!-- Question 8.1: Preferred FPV Drone Features -->
-    <div class="question" id="question8_1" style="display: none;">
+    <!-- Question 8.1: drone regulations and safety guidelines -->
+    <div class="question" id="question8_1"  style="display: none;">
+      <h2>Are you familiar with the drone regulations and safety guidelines in your local area?</h2>
+      <div class="options">
+        <div class="option">
+          <input type="radio" name="regulationsKnowledge" value="well_informed" id="wellInformedOption">
+          <label for="wellInformedOption">Yes, I am well-informed about the drone regulations, safety guidelines, and licensing requirements in my location.</label>
+        </div>
+        <div class="option">
+          <input type="radio" name="regulationsKnowledge" value="basic_knowledge" id="basicKnowledgeOption">
+          <label for="basicKnowledgeOption">I have some basic knowledge of regulations, but I would appreciate more information, including licensing details.</label>
+        </div>
+        <div class="option">
+          <input type="radio" name="regulationsKnowledge" value="not_informed" id="notInformedOption">
+          <label for="notInformedOption">No, I haven't looked into the regulations or licensing requirements yet.</label>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button id="nextBtn8_1" disabled>Next</button>
+      </div>
+    </div>
+
+    <!-- Information Box: drone regulations and safety guidelines for if user shooce basic_knowledge -->
+    <div class="info-box" id="droneregulationsbasicknowledgeInfoBox" style="display: none;">
+      <h2>Drone Regulations and Safety Guidelines</h2>
+      <p>If you haven't looked into drone regulations and licensing requirements in your area yet, it's important to do so before flying your drone. Different regions and countries have varying rules and regulations that you must follow to ensure safe and legal drone operation.</p>
+      <p>Some key points to consider:</p>
+      <ul>
+        <li>Check if you need to register your drone with aviation authorities.</li>
+        <li>Understand where and when you're allowed to fly your drone.</li>
+        <li>Learn about no-fly zones, restricted areas, and privacy concerns.</li>
+        <li>Find out about any required training or certification for drone pilots.</li>
+      </ul>
+      <p>By familiarizing yourself with the regulations and guidelines, you can enjoy flying your drone responsibly and avoid any potential legal issues.</p>
+      <div class="btn-container">
+        <button id="nextBtndroneregulationsbasicknowledgeInfo">Next</button>
+      </div>
+    </div>
+
+    <!-- Information Box: drone regulations and safety guidelines for if user shooce not_informed -->
+    <div class="info-box" id="droneregulationsnotinformedInfoBox" style="display: none;">
+      <h2>Drone Regulations and Safety Guidelines</h2>
+      <p>If you're not familiar with the drone regulations and safety guidelines in your local area, it's important to learn about them before flying a drone. Different countries and regions have their own rules and regulations governing drone flights, which can include altitude limits, no-fly zones, and licensing requirements.</p>
+      <p>Before you start flying your drone, consider doing the following:</p>
+      <ul>
+        <li>Research the regulations and guidelines specific to your location.</li>
+        <li>Check for any restricted or no-fly zones in your area.</li>
+        <li>Understand the maximum allowed altitude for drone flights.</li>
+        <li>Learn about privacy and data protection laws related to drone flights.</li>
+        <li>Consider taking a drone safety course or obtaining any required licenses or certifications.</li>
+      </ul>
+      <p>Being informed about the regulations and safety guidelines will help you enjoy your drone flying experience responsibly and avoid any legal issues or safety risks.</p>
+      <div class="btn-container">
+        <button id="nextBtndroneregulationsnotinformedInfo">Next</button>
+      </div>
+    </div>
+
+    <!-- Question 9.1: Preferred FPV Drone Features -->
+    <div class="question" id="question9_1" style="display: none;">
       <h2>After considering your experience level, goals, and budget, do you have any specific features or functionalities that you'd like to prioritize in an FPV drone?</h2>
       <div class="options">
         <div class="option">
@@ -371,7 +428,7 @@
         </div>
       </div>
       <div class="btn-container">
-        <button id="nextBtn8_1" disabled>Next</button>
+        <button id="nextBtn9_1" disabled>Next</button>
       </div>
     </div>
 
@@ -561,6 +618,12 @@
     const nextBtn7_1 = document.getElementById('nextBtn7_1');
     const droneSize = document.getElementsByName('droneSize');
     const nextBtn8_1 = document.getElementById('nextBtn8_1');
+    const droneregulationsbasicknowledgeInfoBox = document.getElementById("droneregulationsbasicknowledgeInfoBox");
+    const nextBtndroneregulationsnotinformedInfo = document.getElementById("nextBtndroneregulationsnotinformedInfo");
+    const droneregulationsnotinformedInfoBox = document.getElementById("droneregulationsnotinformedInfoBox");
+    const nextBtndroneregulationsbasicknowledgeInfo = document.getElementById("nextBtndroneregulationsbasicknowledgeInfo");
+    const regulationsKnowledge = document.getElementsByName('regulationsKnowledge');
+    const nextBtn9_1 = document.getElementById('nextBtn9_1');
     const featurePreference = document.getElementsByName('featurePreference');
     
     const nextBtn1_2 = document.getElementById('nextBtn1_2');
@@ -628,7 +691,8 @@
     handleOptionChange(budgetRange, nextBtn5_1);
     handleOptionChange(fpvSystem, nextBtn6_1);
     handleOptionChange(droneSize, nextBtn7_1);
-    handleCheckboxChange(featurePreference, nextBtn8_1);
+    handleOptionChange(regulationsKnowledge, nextBtn8_1);
+    handleCheckboxChange(featurePreference, nextBtn9_1);
 
     handleOptionChange(cameraUseOptions, nextBtn1_2);
     handleOptionChange(droneExperienceOptions, nextBtn2_2);
@@ -812,6 +876,52 @@
     });
     
     nextBtn8_1.addEventListener('click', () => {
+      let selectedregulationsKnowledge;
+      for (const option of regulationsKnowledge) {
+        if (option.checked) {
+          selectedregulationsKnowledge = option.value;
+          break;
+        }
+      }
+
+      if (selectedregulationsKnowledge) {
+        userChoices['regulationsKnowledge'] = selectedregulationsKnowledge;
+
+        if (selectedregulationsKnowledge === 'well_informed') {
+          showQuestions('question9_1');
+        } else if (selectedregulationsKnowledge === 'basic_knowledge') {
+          showInfo('droneregulationsbasicknowledgeInfoBox', nextBtn8_1);
+        } else if (selectedregulationsKnowledge === 'not_informed') {
+          showInfo('droneregulationsnotinformedInfoBox', nextBtn8_1);
+        }
+      }
+    });
+
+    nextBtndroneregulationsbasicknowledgeInfo.addEventListener('click', () => {
+      const question8_1Div = document.getElementById('question8_1');
+      const question9_1Div = document.getElementById('question9_1');
+      const droneregulationsbasicknowledgeInfoBoxDiv = document.getElementById('droneregulationsbasicknowledgeInfoBox');
+
+      if (question8_1Div && question9_1Div && droneregulationsbasicknowledgeInfoBoxDiv) {
+        question8_1Div.style.display = 'none';
+        question9_1Div.style.display = 'block';
+        droneregulationsbasicknowledgeInfoBoxDiv.style.display = 'none';
+      }
+    });
+
+    nextBtndroneregulationsnotinformedInfo.addEventListener('click', () => {
+      const question8_1Div = document.getElementById('question8_1');
+      const question9_1Div = document.getElementById('question9_1');
+      const droneregulationsnotinformedInfoBoxDiv = document.getElementById('droneregulationsnotinformedInfoBox');
+
+      if (question8_1Div && question9_1Div && droneregulationsnotinformedInfoBoxDiv) {
+        question8_1Div.style.display = 'none';
+        question9_1Div.style.display = 'block';
+        droneregulationsnotinformedInfoBoxDiv.style.display = 'none';
+      }
+    });
+    
+    nextBtn9_1.addEventListener('click', () => {
       let selectedFeaturePreferences = [];
       for (const option of featurePreference) {
         if (option.checked) {
