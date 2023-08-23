@@ -1,24 +1,21 @@
 /*--------------------------------main----------------------------------*/
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f9f9f9;
 }
-
-/* html {
-
-}
-
-* {
-  
-} */
 
 /*------------------------------questining system-----------------------*/
 
 .container {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 850px;
+  margin: 5% auto;
   padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, p {
@@ -32,7 +29,6 @@ h1, h2, p {
 }
 
 .option {
-  /* display: flex; */
   margin-bottom: 10px;
 }
 
@@ -44,11 +40,20 @@ h1, h2, p {
   -moz-user-select: none;    
   -ms-user-select: none;      
   user-select: none;
+  cursor: help;
+  font-size: 18px;
+  color: #555;
+  transition: transform 0.3s; /* Add a transition for the transform property */
+}
+.arrow.flipped {
+  transform: rotate(180deg); /* Apply rotation when the class is added */
+}
+.arrow:hover {
+  cursor: help;
 }
 
 .additional-info {
   display: none;
-  /* position: absolute; */
   top: 100%;
   left: 0;
   margin-top: 5px;
@@ -56,25 +61,39 @@ h1, h2, p {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   width: calc(100% - 20px);
-  max-width: 300px;
+  max-width: 500px;
   z-index: 1;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
-/* Style for the radio buttons */
 .option input[type="radio"] {
-  transform: scale(1.2); /* Increase the size of the radio buttons */
-  margin-right: 10px; /* Add some spacing between the radio button and the label */
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+.option input[type="radio"]:checked + label {
+  color: #1b1b1b;
 }
 
-/* Style for the selected radio buttons */
-.option input[type="radio"]:checked + label {
-  color: #1b1b1b; /* Change the color of the label when the radio button is selected */
+/* Style for the "Next" buttons */
+.btn-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
 }
-.btn-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+.btn-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
 }
+.btn-container button:hover {
+  background-color: #0056b3;
+}
+
 /* Style for the additional information box */
 .info-box {
   background-color: #f4f4f4;
@@ -82,4 +101,43 @@ h1, h2, p {
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
+}
+
+.drone-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.drone-card {
+  padding: 10px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.drone-card img {
+  width: 100%;
+  min-height: 45%;
+  max-height: 60%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.drone-card h3 {
+  margin-top: 10px;
+}
+.drone-card p {
+  margin: 5px 0;
+}
+
+.learn-more-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.learn-more-btn:hover {
+  background-color: #0056b3;
 }
