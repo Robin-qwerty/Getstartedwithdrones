@@ -5,15 +5,138 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get started with drones</title>
   <link href="style/style.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #333;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Prevent overflowing on small screens */
+      animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+      display: flex;
+      justify-content: space-between; /* Distribute content evenly */
+      align-items: center; /* Align vertically */
+      padding: 10px 30px; /* Add some padding for spacing */
+    }
+    
+    .navbar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .navbar li {
+      margin: 0 20px;
+    }
+    
+    .navbar a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    
+    .navbar a:hover, menu-icon:hover {
+      color: #ff6600!important;
+    }
+
+    .nav-logo {
+      padding: 10px;
+    }
+    
+    /* Responsive Styles */
+    @media screen and (max-width: 768px) {
+      .navbar {
+        align-items: flex-start; /* Align elements to the top */
+      }
+
+      .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        display: none; /* Hide the navigation links initially */
+      }
+      
+      .navbar.active ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+      }
+      
+      .navbar li {
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+      }
+      
+      .menu-icon {
+        display: block!important;
+        cursor: pointer;
+        padding: 10px;
+        text-align: right;
+        font-size: 20px;
+        color: #fff;
+        background-color: #333;
+      }
+    }
+    
+    .menu-icon {
+      display: none;
+      -webkit-user-select: none;  
+      -moz-user-select: none;    
+      -ms-user-select: none;      
+      user-select: none;
+    }
+  
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>index.html</h1>
+  <div class="navbar">
+    <div class="menu-icon" id="menuIcon">&#9776;</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="nav-logo">Your Logo</div>
   </div>
   
-
+  <div style="height: 800px; background-color: #f4f4f4;">
+    <!-- Content area -->
+  </div>
+  
   <script>
+    // hamburger menu code
+    const menuIcon = document.getElementById('menuIcon');
+    const navbar = document.querySelector('.navbar');
     
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+      
+      // Change menu icon based on active state
+      if (navbar.classList.contains('active')) {
+        menuIcon.innerHTML = '&#10005;'; // Close icon
+      } else {
+        menuIcon.innerHTML = '&#9776;'; // Hamburger icon
+      }
+    });
   </script>
 </body>
 </html>
