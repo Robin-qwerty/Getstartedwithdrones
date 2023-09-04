@@ -209,6 +209,22 @@ h1, h2, p {
   gap: 20px;
 }
 
+.transmitter-container {
+  display: flex; /* Display transmitter-cards side by side */
+  flex-wrap: wrap; /* Wrap them to the next line if they don't fit */
+  justify-content: center; /* Distribute space between them */
+}
+
+.transmitter-card {
+  flex: 0 0 calc(33.33% - 20px); /* Distribute them evenly within the container */
+  padding: 10px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
 .drone-card {
   padding: 10px;
   margin: 10px;
@@ -216,18 +232,18 @@ h1, h2, p {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.drone-card img {
+.drone-card img, .transmitter-card img {
   width: 100%;
   min-height: 45%;
   max-height: 60%;
   object-fit: cover;
   border-radius: 5px;
 }
-.drone-card h3 {
+.drone-card h3, .transmitter-card h3 {
   margin-top: 10px;
 }
-.drone-card p {
-  margin: 5px 0;
+.drone-card p, .transmitter-card p {
+  margin: 8px 0;
 }
 
 .learn-more-btn {
@@ -237,6 +253,7 @@ h1, h2, p {
   padding: 5px 10px;
   cursor: pointer;
   border-radius: 4px;
+  text-decoration: none;
 }
 .learn-more-btn:hover {
   background-color: #0056b3;
