@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 21, 2023 at 10:31 PM
+-- Generation Time: Sep 18, 2023 at 05:05 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -57,7 +57,39 @@ CREATE TABLE `fpv-prebuilds` (
   `Length-Width-Height` varchar(55) DEFAULT NULL COMMENT 'Length×Width×Height in mm',
   `strap` varchar(128) DEFAULT NULL COMMENT 'battery strap',
   `led-lighting` varchar(128) DEFAULT NULL,
-  `battery-conector` varchar(45) DEFAULT NULL
+  `battery-conector` varchar(45) DEFAULT NULL,
+  `other` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `logs`
+--
+
+CREATE TABLE `logs` (
+  `id` int(11) NOT NULL,
+  `date` timestamp NOT NULL DEFAULT current_timestamp(),
+  `userid` varchar(11) NOT NULL,
+  `useragent` varchar(255) NOT NULL,
+  `action` tinyint(1) NOT NULL COMMENT '0=select\r\n1=insert\r\n2=update\r\n3=delete\r\n4=login\r\n5=logout\r\n6=restore',
+  `info` varchar(255) DEFAULT NULL,
+  `tableid` tinyint(4) NOT NULL COMMENT '1=beeway\r\n2=disciplines\r\n3=groups\r\n4=maintheme\r\n5=schools\r\n6=users',
+  `interactionid` int(11) NOT NULL,
+  `error` tinyint(4) NOT NULL DEFAULT 0 COMMENT '0=no error\r\n1=Unauthorized access\r\n2=not allowed\r\n3=unknown\r\n4=failed login\r\n5=failed'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `media`
+--
+
+CREATE TABLE `media` (
+  `id` int(11) NOT NULL,
+  `place_id` int(11) NOT NULL,
+  `name` varchar(45) DEFAULT NULL,
+  `media_dir` varbinary(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -92,7 +124,8 @@ CREATE TABLE `transmitters` (
   `module-bay` varchar(45) DEFAULT NULL,
   `Length-Width-Height` varchar(55) DEFAULT NULL,
   `built-material` varchar(45) DEFAULT NULL,
-  `user-manual` varchar(252) DEFAULT NULL
+  `user-manual` varchar(252) DEFAULT NULL,
+  `other` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -103,6 +136,18 @@ CREATE TABLE `transmitters` (
 -- Indexes for table `fpv-prebuilds`
 --
 ALTER TABLE `fpv-prebuilds`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `logs`
+--
+ALTER TABLE `logs`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `media`
+--
+ALTER TABLE `media`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -119,6 +164,18 @@ ALTER TABLE `transmitters`
 -- AUTO_INCREMENT for table `fpv-prebuilds`
 --
 ALTER TABLE `fpv-prebuilds`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `logs`
+--
+ALTER TABLE `logs`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `media`
+--
+ALTER TABLE `media`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
