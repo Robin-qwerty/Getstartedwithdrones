@@ -223,6 +223,23 @@ h1, h2, p {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box; /* Include padding and border in the width calculation */
+  height: fit-content;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 750px) {
+  .container {
+    max-width: 850px;
+    margin: 5% auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .transmitter-card {
+    flex: 0 0 calc(50% - 20px); /* Distribute them evenly within the container */
+  }
 }
 
 .drone-card {

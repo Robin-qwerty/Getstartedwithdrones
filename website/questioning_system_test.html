@@ -418,9 +418,9 @@
       </div>
     </div>
 
-    <!-- Question 5.1: does user have any compenents already -->
+    <!-- Question 5.1: does the user have any components already -->
     <div class="question" id="question5_1" style="display: none;">
-      <h2>Do you already have any of these components that you would like to use for ur new drone?</h2>
+      <h2>Do you already have any of these components that you would like to use for your new drone?</h2>
       <div class="options">
         <div class="option">
           <input type="checkbox" name="components[]" value="transmitter" id="transmitterOption">
@@ -438,11 +438,40 @@
           <input type="checkbox" name="components[]" value="batteries" id="batteriesOption">
           <label for="batteriesOption">Batteries</label>
         </div>
+        <div class="option">
+          <input type="radio" name="components[]" value="none" id="noneOption">
+          <label for="noneOption">None of the above</label>
+        </div>
       </div>
       <div class="btn-container">
         <button id="nextBtn5_1" disabled>Next</button>
       </div>
     </div>
+
+    <script>
+      const noneOption = document.getElementById('noneOption');
+      const checkboxOptions = document.querySelectorAll('input[type="checkbox"]');
+
+      noneOption.addEventListener('change', function () {
+        if (this.checked) {
+          checkboxOptions.forEach(option => {
+            option.checked = false;
+            option.disabled = true;
+          });
+        } else {
+          checkboxOptions.forEach(option => {
+            option.disabled = false;
+          });
+        }
+      });
+
+      // Add an event listener to the "None of the above" radio button.
+      noneOption.addEventListener('click', function () {
+        if (this.checked) {
+          this.checked = false; // Uncheck the button if it's already checked.
+        }
+      });
+    </script>
 
     <!-- Question 6.1: Budget Range -->
     <div class="question" id="question6_1" style="display: none;">
