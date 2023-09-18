@@ -116,6 +116,39 @@
       gap: 20px;
     }
 
+    .transmitter-container {
+      display: flex; /* Display transmitter-cards side by side */
+      flex-wrap: wrap; /* Wrap them to the next line if they don't fit */
+      justify-content: center; /* Distribute space between them */
+    }
+
+    .transmitter-card {
+      flex: 0 0 calc(33.33% - 20px); /* Distribute them evenly within the container */
+      padding: 10px;
+      margin: 10px;
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box; /* Include padding and border in the width calculation */
+      height: fit-content;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 750px) {
+      .container {
+        max-width: 850px;
+        margin: 5% auto;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .transmitter-card {
+        flex: 0 0 calc(50% - 20px); /* Distribute them evenly within the container */
+      }
+    }
+    
     .drone-card {
       padding: 10px;
       margin: 10px;
@@ -123,18 +156,18 @@
       border: 1px solid #ccc;
       border-radius: 5px;
     }
-    .drone-card img {
+    .drone-card img, .transmitter-card img {
       width: 100%;
       min-height: 45%;
       max-height: 60%;
       object-fit: cover;
       border-radius: 5px;
     }
-    .drone-card h3 {
+    .drone-card h3, .transmitter-card h3 {
       margin-top: 10px;
     }
-    .drone-card p {
-      margin: 5px 0;
+    .drone-card p, .transmitter-card p {
+      margin: 8px 0;
     }
 
     .learn-more-btn {
@@ -144,6 +177,7 @@
       padding: 5px 10px;
       cursor: pointer;
       border-radius: 4px;
+      text-decoration: none;
     }
     .learn-more-btn:hover {
       background-color: #0056b3;
@@ -310,6 +344,30 @@
     <div class="info-box" id="simulatorInfoBox" style="display: none;">
       <h3>Why You Should Try a Simulator Before Buying an FPV Drone</h3>
       <p>Using an FPV simulator allows you to practice flying and develop your skills in a risk-free virtual environment. Simulators help you learn the basics of drone control, improve your reaction times, and understand flight dynamics before flying a real drone. This experience can save you from crashes and frustration while building your confidence as a pilot.</p>
+      <br>
+      <p>Here are some good options for transmitters to use in a simulator that you can later use for your real drone:</p>
+      <div class="transmitter-container">
+        <div class="transmitter-card">
+          <img src="media/drone1.jpg" alt="Transmitter 1">
+          <h3>Radiomaster TX16S</h3>
+          <p>Good and populair transmitter</p>
+          <p>Buildin protocol: FRsky/ELRS</p>
+          <p>Price: 250$</p>
+          <hr>
+          <a class="learn-more-btn" target="_blank" href="#">Learn More</a>
+        </div>
+        <div class="transmitter-card">
+          <img src="media/drone2.jpg" alt="Transmitter 2">
+          <h3>Radiomaster TX12</h3>
+          <p>Really good but low budget transmitter to get started</p>
+          <p>Buildin protocol: FRsky/ELRS</p>
+          <p>Price: 80$</p>
+          <hr>
+          <a class="learn-more-btn" target="_blank" href="#">Learn More</a>
+        </div>
+      </div>
+      <hr>
+      <br>
       <div class="btn-container">
         <button id="nextBtnSimulatorInfo">Next</button>
       </div>
