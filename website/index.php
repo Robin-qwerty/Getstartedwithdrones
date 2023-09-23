@@ -14,7 +14,7 @@
 <head>
   <meta charset = "UTF-8">
   <title><?php if (isset($page)) { echo $page; } else {echo "Home";}?></title>
-  <!-- <link rel="icon" type="image/x-icon" href="media/favicon.ico"> -->
+  <link rel="icon" type="image/x-icon" href="media/drone-logo.ico">
   <link href="style/style.css" rel="stylesheet">
   <!-- <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.0-beta.3/dist/iconify-icon.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
@@ -47,6 +47,5 @@
     require_once 'include/error.inc.php';
     require_once 'include/info.inc.php';
   ?>
-
 </body>
 </html>

@@ -107,6 +107,46 @@ body {
   }
 }
 
+/*------------------------------home page-------------------------------*/
+
+.guideshowcase-div {
+  color: #333; /* Text color */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex; /* Use flexbox to arrange content and image side by side */
+  gap: 6%;
+  align-items: center; /* Vertically center content and image */
+  background-color: #f9f9f9;
+}
+
+.guideshowcase-div h2 {
+  font-size: 24px;
+}
+
+.guideshowcase-div p {
+  font-size: 16px;
+}
+
+.guideshowcase-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 850px) {
+  .guideshowcase-div {
+      flex-direction: column; /* Stack divs on top of each other */
+      align-items: flex-start; /* Align content to the left */
+  }
+
+  .guideshowcase-image {
+      margin-left: 0; /* Remove left margin for the image */
+      margin-top: 20px; /* Add top margin to separate the image from content */
+      max-width: 100%; /* Make the image full-width */
+  }
+}
+
 /*------------------------------questining system-----------------------*/
 
 .container {
@@ -273,5 +313,134 @@ h1, h2, p {
   text-decoration: none;
 }
 .learn-more-btn:hover {
+  background-color: #0056b3;
+}
+
+/*------------------------------Admin part------------------------------*/
+
+.admin-dashboard {
+  background-color: #fff;
+  max-width: 75%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.dashboard-section {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px; /* Add margin between sections */
+  box-sizing: border-box; /* Ensure padding and border don't increase element size */
+}
+
+.dashboard-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .dashboard-section {
+      flex: 100%; /* Make sections stack vertically */
+  }
+}
+
+.admin-panel {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
   background-color: #0056b3;
 }
