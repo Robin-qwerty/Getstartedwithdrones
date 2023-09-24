@@ -21,7 +21,7 @@
     $vtx = $_POST['vtx'];
     $camera = $_POST['camera'];
     $antenna = $_POST['antenna'];
-    $reciever = $_POST['reciever'];
+    $receiver = $_POST['receiver'];
     $buzzer = $_POST['buzzer'];
     $motors = $_POST['motors'];
     $props = $_POST['props'];
@@ -57,7 +57,7 @@
     $vtx = filter_var($_POST['vtx'], FILTER_SANITIZE_STRING);
     $camera = filter_var($_POST['camera'], FILTER_SANITIZE_STRING);
     $antenna = filter_var($_POST['antenna'], FILTER_SANITIZE_STRING);
-    $reciever = filter_var($_POST['reciever'], FILTER_SANITIZE_STRING);
+    $receiver = filter_var($_POST['receiver'], FILTER_SANITIZE_STRING);
     $buzzer = filter_var($_POST['buzzer'], FILTER_SANITIZE_STRING);
     $motors = filter_var($_POST['motors'], FILTER_SANITIZE_STRING);
     $props = filter_var($_POST['props'], FILTER_SANITIZE_STRING);
@@ -88,8 +88,8 @@
         if ($isValid) {
             // Data is valid, proceed with database insertion
             // Construct the SQL INSERT query
-            $sql = "INSERT INTO fpv_prebuilds (fpv_prebuild_name, description, drone_class, frame, arms, wheelbase, prop_duct, fc, micro_controler, imu, bluetooth_ble, osd_chip, blackbox, fc_usb_plug, esc, power_input, vtx, camera, antenna, reciever, buzzer, motors, props, gps, weight, length_width_height, strap, led_lighting, battery_conector, other) 
-            VALUES ('$fpv_prebuild_name', '$description', '$drone_class', '$frame', '$arms', '$wheelbase', '$prop_duct', '$fc', '$micro_controler', '$imu', '$bluetooth_ble', '$osd_chip', '$blackbox', '$fc_usb_plug', '$esc', '$power_input', '$vtx', '$camera', '$antenna', '$reciever', '$buzzer', '$motors', '$props', '$gps', '$weight', '$Length_Width_Height', '$strap', '$led_lighting', '$battery_conector', '$other')";
+            $sql = "INSERT INTO fpv_prebuilds (fpv_prebuild_name, description, drone_class, frame, arms, wheelbase, prop_duct, fc, micro_controler, imu, bluetooth_ble, osd_chip, blackbox, fc_usb_plug, esc, power_input, vtx, camera, antenna, receiver, buzzer, motors, props, gps, weight, length_width_height, strap, led_lighting, battery_conector, other) 
+            VALUES ('$fpv_prebuild_name', '$description', '$drone_class', '$frame', '$arms', '$wheelbase', '$prop_duct', '$fc', '$micro_controler', '$imu', '$bluetooth_ble', '$osd_chip', '$blackbox', '$fc_usb_plug', '$esc', '$power_input', '$vtx', '$camera', '$antenna', '$receiver', '$buzzer', '$motors', '$props', '$gps', '$weight', '$Length_Width_Height', '$strap', '$led_lighting', '$battery_conector', '$other')";
                 echo "Error: " . $sql . "<br>";
 
             $conn->query($sql);

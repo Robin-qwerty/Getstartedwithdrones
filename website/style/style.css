@@ -320,7 +320,7 @@ h1, h2, p {
 
 .admin-dashboard {
   background-color: #fff;
-  max-width: 75%;
+  max-width: 80%;
   margin: 50px auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -354,6 +354,52 @@ h1, h2, p {
 .dashboard-section p {
   font-size: 1rem;
   margin-bottom: 20px;
+}
+
+.add-new-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.add-new-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.table-container {
+  /* max-height: 400px; */
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for alternating rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Lighter background color for even rows */
+}
+
+/* Style for row hover */
+tr:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
 }
 
 .btn {

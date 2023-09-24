@@ -69,8 +69,8 @@
         <label for="antenna">VTX Antenna:</label>
         <input type="text" name="antenna" id="antenna"><br>
 
-        <label for="reciever">Receiver:</label>
-        <input type="text" name="reciever" id="reciever"><br>
+        <label for="receiver">Receiver:</label>
+        <input type="text" name="receiver" id="receiver"><br>
 
         <label for="buzzer">Buzzer:</label>
         <input type="text" name="buzzer" id="buzzer"><br>

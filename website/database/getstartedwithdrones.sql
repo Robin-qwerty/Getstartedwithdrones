@@ -84,7 +84,7 @@ CREATE TABLE `fpv_prebuilds` (
   `vtx` varchar(128) DEFAULT NULL,
   `camera` varchar(128) DEFAULT NULL,
   `antenna` varchar(128) DEFAULT NULL COMMENT 'antenna of the vtx',
-  `reciever` varchar(128) DEFAULT NULL,
+  `receiver` varchar(128) DEFAULT NULL,
   `buzzer` varchar(55) DEFAULT NULL,
   `motors` varchar(128) DEFAULT NULL,
   `props` varchar(128) DEFAULT NULL,
@@ -101,7 +101,7 @@ CREATE TABLE `fpv_prebuilds` (
 -- Dumping data for table `fpv_prebuilds`
 --
 
-INSERT INTO `fpv_prebuilds` (`id`, `fpv_prebuild_name`, `manufacturer`, `description`, `drone_class`, `frame`, `arms`, `wheelbase`, `prop_duct`, `fc`, `micro_controler`, `imu`, `bluetooth_ble`, `osd_chip`, `blackbox`, `fc_usb_plug`, `esc`, `power_input`, `vtx`, `camera`, `antenna`, `reciever`, `buzzer`, `motors`, `props`, `gps`, `weight`, `length_width_height`, `strap`, `led_lighting`, `battery_conector`, `other`) VALUES
+INSERT INTO `fpv_prebuilds` (`id`, `fpv_prebuild_name`, `manufacturer`, `description`, `drone_class`, `frame`, `arms`, `wheelbase`, `prop_duct`, `fc`, `micro_controler`, `imu`, `bluetooth_ble`, `osd_chip`, `blackbox`, `fc_usb_plug`, `esc`, `power_input`, `vtx`, `camera`, `antenna`, `receiver`, `buzzer`, `motors`, `props`, `gps`, `weight`, `length_width_height`, `strap`, `led_lighting`, `battery_conector`, `other`) VALUES
 (1, 'DJI FPV', '', 'Combines ease of use with FPV excitement.', 3, 'DJI Frame', 4, 200, 0, 'DJI FC', 'DJI Microcontroller', 'DJI IMU', 'Yes', 'DJI OSD Chip', 'Yes', 2, 'DJI ESC', '6S LiPo', 'DJI VTX', 'DJI Camera', 'DJI Antenna', 'DJI Receiver', 'Yes', 'DJI Motors', 'DJI Props', 'Yes', '750g', '200×200×50', 'DJI Strap', 'Yes', 'XT60', NULL),
 (2, 'iFlight Nazgul5', '', 'Known for durability and performance.', 3, 'iFlight Frame', 5, 250, 0, 'iFlight FC', 'iFlight Microcontroller', 'iFlight IMU', 'No', 'iFlight OSD Chip', 'Yes', 2, 'iFlight ESC', '4S LiPo', 'iFlight VTX', 'iFlight Camera', 'iFlight Antenna', 'iFlight Receiver', 'No', 'iFlight Motors', 'iFlight Props', 'No', '300g', '250×250×60', 'iFlight Strap', 'No', 'XT60', NULL),
 (3, 'EMAX Tinyhawk II', '', 'Micro FPV drone for indoor and outdoor flying.', 6, 'EMAX Frame', 2, 75, 1, 'EMAX FC', 'EMAX Microcontroller', 'EMAX IMU', 'No', 'EMAX OSD Chip', 'No', 1, 'EMAX ESC', '1S LiPo', 'EMAX VTX', 'EMAX Camera', 'EMAX Antenna', 'EMAX Receiver', 'Yes', 'EMAX Motors', 'EMAX Props', 'No', '32g', '75×75×25', 'EMAX Strap', 'No', 'PH2.0', NULL);
