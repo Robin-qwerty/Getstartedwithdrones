@@ -1,9 +1,9 @@
 <div class="navbar">
     <div class="menu-icon" id="menuIcon">&#9776;</div>
         <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php?page=home">Home</a></li>
             <li><a href="questioning_system_test.html">Get started with drones quiz?</a></li>
-            <li><a href="article_test.html">Articles</a></li>
+            <li><a href="index.php?page=articles">Articles</a></li>
             <li><a href="https://discord.gg/yKvbd7sEFR">Discord server</a></li>
         </ul>
     <div class="nav-logo">Your Logo</div>

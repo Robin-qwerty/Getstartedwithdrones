@@ -109,16 +109,20 @@ body {
 
 /*------------------------------home page-------------------------------*/
 
-.guideshowcase-div {
-  color: #333; /* Text color */
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  display: flex; /* Use flexbox to arrange content and image side by side */
-  gap: 6%;
-  align-items: center; /* Vertically center content and image */
+.guideshowcase-section {
   background-color: #f9f9f9;
+  color: #333;
+  padding: 3%;
+  border-radius: 10px;
+  margin: 3%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  /* text-align: center; */
+}
+
+.guideshowcase-div {
+  display: flex;
+  gap: 6%;
+  align-items: center;
 }
 
 .guideshowcase-div h2 {
@@ -136,15 +140,89 @@ body {
 
 @media (max-width: 850px) {
   .guideshowcase-div {
-      flex-direction: column; /* Stack divs on top of each other */
-      align-items: flex-start; /* Align content to the left */
+    flex-direction: column; /* Stack divs on top of each other */
+    align-items: flex-start; /* Align content to the left */
   }
 
   .guideshowcase-image {
-      margin-left: 0; /* Remove left margin for the image */
-      margin-top: 20px; /* Add top margin to separate the image from content */
-      max-width: 100%; /* Make the image full-width */
+    margin-left: 0; /* Remove left margin for the image */
+    margin-top: 20px; /* Add top margin to separate the image from content */
+    max-width: 100%; /* Make the image full-width */
   }
+}
+
+.start-test-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.start-test-button:hover {
+  background-color: #0056b3;
+}
+
+
+.article-section {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 3%;
+  border-radius: 10px;
+  margin: 3%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.article-cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-evenly; /* Add space between items */
+}
+
+.article-card {
+  width: 26%;
+  min-width: 250px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 18px;
+  text-align: left;
+}
+
+.article-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-card h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.article-card p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.article-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.article-card a:hover {
+  background-color: #0056b3;
 }
 
 /*------------------------------questining system-----------------------*/
@@ -489,4 +567,36 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+/*------------------------------404 page--------------------------------*/
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 120px;
+  color: #ff7979;
+  margin-bottom: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
 }

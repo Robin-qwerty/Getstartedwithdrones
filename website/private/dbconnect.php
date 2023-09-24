@@ -31,3 +31,5 @@
   //     echo "Failed to connect to MySQL: " . $e->getMessage();
   // }
 ?>
+
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, INDEX, ALTER ON  *.* TO 'getstartedwithdrones'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
