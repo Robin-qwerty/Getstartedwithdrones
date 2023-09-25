@@ -109,6 +109,16 @@ body {
 
 /*------------------------------home page-------------------------------*/
 
+.homepage-section1 {
+
+}
+
+.homepage-section2 {
+  display: flex;
+  flex-wrap: nowrap;
+  /* justify-content: space-evenly; */
+}
+
 .guideshowcase-section {
   background-color: #f9f9f9;
   color: #333;
