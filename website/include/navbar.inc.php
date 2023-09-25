@@ -6,7 +6,7 @@
             <li><a href="index.php?page=articles">Articles</a></li>
             <li><a href="https://discord.gg/yKvbd7sEFR">Discord server</a></li>
         </ul>
-    <div class="nav-logo">Your Logo</div>
+    <div class="nav-logo">My cool logo here</div>
 </div>
   
 <script>

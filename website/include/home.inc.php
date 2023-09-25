@@ -1,4 +1,6 @@
 <section class="homepage-section1 guideshowcase-section">
+    <h1>What is the get started with drones guid how can it help me?</h1>
+    <hr>
     <div class="guideshowcase-div">
         <div>
             <h2>Why Try This Guide?</h2>
@@ -20,58 +22,117 @@
             <img src="media/your-background-image.png" alt="Your Image Description" class="guideshowcase-image">
         </div>
     </div>
+    <hr>
     
-    <h2>Make the test now to find out what drones fits you best!</h2>
-    <a href="questioning_system_test.html" class="start-test-button">Start Test</a>
+    <h2>Ready to Get Started?</h2>
+    <p>Take our quick quiz to discover the perfect drone for you!</p>
+    <a href="questioning_system_test.html" class="start-test-button">I Want To Do The Test Now!</a>
 </section>
 
 <section class="homepage-section2">
     <div class="article-section">
         <h2>Latest Articles</h2>
+        <hr>
         <div class="article-cards-container">
             <div class="article-card">
-                <img src="article1.jpg" alt="Article 1">
+                <!-- <img src="article1.jpg" alt="Article 1"> -->
                 <h3>Article Title 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
                 <a href="index.php?page=article&articleid=">Read More</a>
             </div>
             <div class="article-card">
-                <img src="article2.jpg" alt="Article 2">
+                <!-- <img src="article2.jpg" alt="Article 2"> -->
                 <h3>Article Title 2</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
                 <a href="index.php?page=article&articleid=">Read More</a>
             </div>
             <div class="article-card">
-                <img src="article3.jpg" alt="Article 3">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
+                <h3>Article Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
+                <h3>Article Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
+                <h3>Article Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
                 <h3>Article Title 3</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
                 <a href="index.php?page=article&articleid=">Read More</a>
             </div>
         </div>
     </div>
-    <div class="article-section">
+
+    <div class="simulator-info">
         <h2>FPV Simulator Training</h2>
-        <p>FPV simulators are an excellent way to practice and improve your drone flying skills without risking damage to your real drone. Here's some information to get you started:</p>
+        <hr>
+        <p>Simulators are a great way to practice FPV flying without risking damage to your drone. They offer a safe environment to hone your piloting skills.</p>
 
         <h3>Why Use FPV Simulators?</h3>
-        <p>Simulators offer a risk-free environment for both beginners and experienced pilots to refine their flying skills. They provide a realistic flight experience and allow you to practice maneuvers, hone your control, and develop your FPV piloting techniques.</p>
+        <p>FPV simulators provide the following benefits:</p>
+        <ul>
+            <li>Safe environment for learning and practicing.</li>
+            <li>Cost-effective compared to real drone repairs.</li>
+            <li>Helps improve piloting skills and confidence.</li>
+        </ul>
 
-        <h3>Choosing a Simulator</h3>
-        <p>When selecting an FPV simulator, consider factors like compatibility with your hardware, available features, and user interface. Some popular simulators include Liftoff, DRL Simulator, and VelociDrone.</p>
+        <h3>Recommended Transmitters for Simulator Training</h3>
+        <p>For simulators, you can start with affordable transmitters like the Flysky FS-i6 or the FrSky Taranis Q X7. These transmitters offer good performance for beginners.</p>
 
-        <h3>Transmitter for Simulator Practice</h3>
-        <p>For simulator training, you'll need a transmitter/controller. Look for a transmitter that's compatible with your simulator software. Many beginners start with transmitters like the FrSky Taranis or the FlySky FS-i6X for their affordability and reliability.</p>
+        <h3>Popular FPV Simulators</h3>
+        <p>Some popular FPV simulators include:</p>
+        <ul>
+            <li>VelociDrone</li>
+            <li>Liftoff</li>
+            <li>FPV Freerider</li>
+        </ul>
 
-        <h3>Getting Started</h3>
-        <p>Install your chosen simulator software, connect your transmitter to your computer, and follow the setup instructions provided by the simulator. Start with basic flight exercises and progressively work your way up to more advanced maneuvers.</p>
+        <p>Explore these simulators to find the one that suits you best.</p>
 
-        <h3>Realistic Flying Experience</h3>
-        <p>FPV simulators strive to replicate real-world flying conditions, including different drones and environments. This makes them valuable tools for improving your skills in a variety of scenarios.</p>
+        <a href="index.php?page=article&articleid=" class="info-button">Learn More</a>
 
-        <h3>Track Your Progress</h3>
-        <p>Many simulators offer features that allow you to track your progress, compete with others in online races, and even practice with friends in multiplayer mode. Use these features to challenge yourself and measure your improvement over time.</p>
+        <img src="simulator.jpg" alt="FPV Simulator" class="simulator-image">
+    </div>
 
-        <p>Remember, while simulators are a fantastic training tool, they can't replace real-world flying experience. Combine simulator practice with outdoor flights to become a skilled FPV pilot.</p>
+    <div class="simulator-info">
+        <h2>FPV Simulator Training</h2>
+        <hr>
+        <p>Simulators are a great way to practice FPV flying without risking damage to your drone. They offer a safe environment to hone your piloting skills.</p>
+
+        <h3>Why Use FPV Simulators?</h3>
+        <p>FPV simulators provide the following benefits:</p>
+        <ul>
+            <li>Safe environment for learning and practicing.</li>
+            <li>Cost-effective compared to real drone repairs.</li>
+            <li>Helps improve piloting skills and confidence.</li>
+        </ul>
+
+        <h3>Recommended Transmitters for Simulator Training</h3>
+        <p>For simulators, you can start with affordable transmitters like the Flysky FS-i6 or the FrSky Taranis Q X7. These transmitters offer good performance for beginners.</p>
+
+        <h3>Popular FPV Simulators</h3>
+        <p>Some popular FPV simulators include:</p>
+        <ul>
+            <li>VelociDrone</li>
+            <li>Liftoff</li>
+            <li>FPV Freerider</li>
+        </ul>
+
+        <p>Explore these simulators to find the one that suits you best.</p>
+
+        <a href="index.php?page=article&articleid=" class="info-button">Learn More</a>
+
+        <img src="simulator.jpg" alt="FPV Simulator" class="simulator-image">
     </div>
 </section>
 
