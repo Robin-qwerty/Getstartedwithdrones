@@ -79,7 +79,7 @@
         <p>Simulators are a great way to practice FPV flying without risking damage to your drone. They offer a safe environment to hone your piloting skills.</p>
 
         <h3>Why Use FPV Simulators?</h3>
-        <p>FPV simulators provide the following benefits:</p>
+        <p>Using an FPV simulators provide some benefits:</p>
         <ul>
             <li>Safe environment for learning and practicing.</li>
             <li>Cost-effective compared to real drone repairs.</li>
@@ -97,11 +97,16 @@
             <li>FPV Freerider</li>
         </ul>
 
+        <p>Here is the only free simulator that we reccomend using:</p>
+        <ul>
+            <li>FPV.Skydive</li>
+        </ul>
+
         <p>Explore these simulators to find the one that suits you best.</p>
 
         <a href="index.php?page=article&articleid=" class="info-button">Learn More</a>
 
-        <img src="simulator.jpg" alt="FPV Simulator" class="simulator-image">
+        <img src="simulator.jpg" alt="Faild to load in photo: FPV Simulator" class="simulator-image">
     </div>
 
     <div class="simulator-info">
@@ -132,7 +137,7 @@
 
         <a href="index.php?page=article&articleid=" class="info-button">Learn More</a>
 
-        <img src="simulator.jpg" alt="FPV Simulator" class="simulator-image">
+        <img src="simulator.jpg" alt="Faild to load in photo: FPV Simulator" class="simulator-image">
     </div>
 </section>
 

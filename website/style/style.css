@@ -4,7 +4,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #6e918c;
+  background-color: #365752;
+}
+
+/*------------------------------404 page--------------------------------*/
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /*------------------------------navbar----------------------------------*/
@@ -281,6 +290,7 @@ body {
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
+  font-size: initial;
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
@@ -681,11 +691,131 @@ input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-/*------------------------------404 page--------------------------------*/
+/*------------------------------registration page-----------------------*/
 
-.container {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
+/* Style for the registration container */
+.registration {
+  max-width: 400px;
+  margin: 100px auto;
   padding: 20px;
+  background-color: #f9f9f9;
   border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.registration h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.registration label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.registration input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.registration input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/*------------------------------Login page------------------------------*/
+
+/* Style for the registration container */
+.login {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.login label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the Register button container */
+.register-container {
+  display: flex; /* Display contents in a row */
+  align-items: center; /* Vertically center contents */
+  justify-content: center; /* Horizontally center contents */
+  margin-top: 10px; /* Add spacing from the login form */
+}
+
+.register-container p {
+  margin-right: 10px; /* Add spacing between text and button */
+}
+
+/* Style for the Register button */
+.register-button {
+  color: #28a745;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.register-button:hover {
+  color: #218838;
 }
