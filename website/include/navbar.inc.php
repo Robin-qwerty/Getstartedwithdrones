@@ -2,9 +2,10 @@
     <div class="menu-icon" id="menuIcon">&#9776;</div>
         <ul>
             <li><a href="index.php?page=home">Home</a></li>
-            <li><a href="questioning_system_test.html">Get started with drones quiz?</a></li>
             <li><a href="index.php?page=articles">Articles</a></li>
-            <li><a href="https://discord.gg/yKvbd7sEFR">Discord server</a></li>
+            <li><a href="questioning_system_test.html">Get started with drones quiz</a></li>
+            <li><a href="https://discord.gg/yKvbd7sEFR" target="_blank">Join the Discord server</a></li>
+            <li><a href="index.php?page=login">Login</a></li>
         </ul>
     <div class="nav-logo">My cool logo here</div>
 </div>
