@@ -1,191 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get started with drones</title>
-  <style>
-    /*--------------------------------main----------------------------------*/
-
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #253b38;
-    }
-
-    /*------------------------------questining system-----------------------*/
-
-    .questioning_container {
-      max-width: 850px;
-      margin: 5% auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .questioning_container h1, h2, p {
-      margin-bottom: 10px;
-    }
-
-    .options {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .option {
-      margin-bottom: 10px;
-    }
-
-    .arrow {
-      display: inline-block;
-      cursor: pointer;
-      margin-left: 5px;
-      -webkit-user-select: none;  
-      -moz-user-select: none;    
-      -ms-user-select: none;      
-      user-select: none;
-      cursor: help;
-      font-size: 18px;
-      color: #555;
-      transition: transform 0.3s; /* Add a transition for the transform property */
-    }
-    .arrow.flipped {
-      transform: rotate(180deg); /* Apply rotation when the class is added */
-    }
-    .arrow:hover {
-      cursor: help;
-    }
-
-    .additional-info {
-      display: none;
-      top: 100%;
-      left: 0;
-      margin-top: 5px;
-      padding: 10px;
-      background-color: #f5f5f5;
-      border: 1px solid #ccc;
-      width: calc(100% - 20px);
-      max-width: 500px;
-      z-index: 1;
-      border-radius: 5px;
-      font-size: 14px;
-    }
-
-    .option input[type="radio"] {
-      transform: scale(1.2);
-      margin-right: 10px;
-    }
-    .option input[type="radio"]:checked + label {
-      color: #1b1b1b;
-    }
-
-    /* Style for the "Next" buttons */
-    .btn-container button {
-      padding: 8px 16px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      font-size: 16px;
-    }
-    .btn-container button:disabled {
-      background-color: #ccc;
-      cursor: not-allowed;
-    }
-    .btn-container button:hover {
-      background-color: #0056b3;
-    }
-
-    /* Style for the additional information box */
-    .info-box {
-      background-color: #f4f4f4;
-      border: 1px solid #ccc;
-      padding: 10px;
-      margin-top: 10px;
-      border-radius: 5px;
-    }
-
-    .drone-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-    }
-
-    .transmitter-container {
-      display: flex; /* Display transmitter-cards side by side */
-      flex-wrap: wrap; /* Wrap them to the next line if they don't fit */
-      justify-content: center; /* Distribute space between them */
-    }
-
-    .transmitter-card {
-      flex: 0 0 calc(33.33% - 20px); /* Distribute them evenly within the container */
-      padding: 10px;
-      margin: 10px;
-      background-color: #f4f4f4;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box; /* Include padding and border in the width calculation */
-      height: fit-content;
-    }
-
-    /* Responsive Styles */
-    @media screen and (max-width: 750px) {
-      .container {
-        max-width: 850px;
-        margin: 5% auto;
-        padding: 10px;
-        background-color: #fff;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      }
-
-      .transmitter-card {
-        flex: 0 0 calc(50% - 20px); /* Distribute them evenly within the container */
-      }
-    }
-    
-    .drone-card {
-      padding: 10px;
-      margin: 10px;
-      background-color: #f4f4f4;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    .drone-card img, .transmitter-card img {
-      width: 100%;
-      min-height: 45%;
-      max-height: 60%;
-      object-fit: cover;
-      border-radius: 5px;
-    }
-    .drone-card h3, .transmitter-card h3 {
-      margin-top: 10px;
-    }
-    .drone-card p, .transmitter-card p {
-      margin: 8px 0;
-    }
-
-    .learn-more-btn {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      cursor: pointer;
-      border-radius: 4px;
-      text-decoration: none;
-    }
-    .learn-more-btn:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
-<body>
-  <div class="questioning_container" id="questioning_container">
+<div class="questioning_container" id="questioning_container">
     <h1>Get started with drones</h1>
 
     <div id="droneCards" style="display: none;">
@@ -418,62 +231,59 @@
     </div>
 
     <!-- Question 5.1: does the user have any components already -->
-<div class="question" id="question5_1" style="display: none;">
-  <h2>Do you already have any of these components that you would like to use for your new drone?</h2>
-  <div class="options">
-    <div class="option">
-      <input type="checkbox" name="components[]" value="transmitter" id="transmitterOption">
-      <label for="transmitterOption">A transmitter</label>
+    <div class="question" id="question5_1" style="display: none;">
+      <h2>Do you already have any of these components that you would like to use for your new drone?</h2>
+      <div class="options">
+        <div class="option">
+          <input type="checkbox" name="components[]" value="transmitter" id="transmitterOption">
+          <label for="transmitterOption">A transmitter</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" name="components[]" value="goggles" id="gogglesOption">
+          <label for="gogglesOption">FPV goggles</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" name="components[]" value="charger" id="chargerOption">
+          <label for="chargerOption">Battery charger</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" name="components[]" value="batteries" id="batteriesOption">
+          <label for="batteriesOption">Batteries</label>
+        </div>
+        <div class="option">
+          <input type="radio" name="components[]" value="none" id="noneOption">
+          <label for="noneOption">None of the above</label>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button id="nextBtn5_1" disabled>Next</button>
+      </div>
     </div>
-    <div class="option">
-      <input type="checkbox" name="components[]" value="goggles" id="gogglesOption">
-      <label for="gogglesOption">FPV goggles</label>
-    </div>
-    <div class="option">
-      <input type="checkbox" name="components[]" value="charger" id="chargerOption">
-      <label for="chargerOption">Battery charger</label>
-    </div>
-    <div class="option">
-      <input type="checkbox" name="components[]" value="batteries" id="batteriesOption">
-      <label for="batteriesOption">Batteries</label>
-    </div>
-    <div class="option">
-      <input type="radio" name="components[]" value="none" id="noneOption">
-      <label for="noneOption">None of the above</label>
-    </div>
-  </div>
-  <div class="btn-container">
-    <button id="nextBtn5_1" disabled>Next</button>
-  </div>
-</div>
 
-<script>
-  const noneOption = document.getElementById('noneOption');
-  const checkboxOptions = document.querySelectorAll('input[type="checkbox"]');
+    <script>
+      const noneOption = document.getElementById('noneOption');
+      const checkboxOptions = document.querySelectorAll('input[type="checkbox"]');
 
-  noneOption.addEventListener('change', function () {
-    if (this.checked) {
-      checkboxOptions.forEach(option => {
-        option.checked = false;
-        option.disabled = true;
+      noneOption.addEventListener('change', function () {
+        if (this.checked) {
+          checkboxOptions.forEach(option => {
+            option.checked = false;
+            option.disabled = true;
+          });
+        } else {
+          checkboxOptions.forEach(option => {
+            option.disabled = false;
+          });
+        }
       });
-    } else {
-      checkboxOptions.forEach(option => {
-        option.disabled = false;
+
+      // Add an event listener to the "None of the above" radio button.
+      noneOption.addEventListener('click', function () {
+        if (this.checked) {
+          this.checked = false; // Uncheck the button if it's already checked.
+        }
       });
-    }
-  });
-
-  // Add an event listener to the "None of the above" radio button.
-  noneOption.addEventListener('mousedown', function () {
-    // Toggle the "None of the above" checkbox
-    this.checked = !this.checked;
-
-    // Trigger the change event to apply the logic
-    this.dispatchEvent(new Event('change'));
-  });
-</script>
-
+    </script>
 
     <!-- Question 6.1: Budget Range -->
     <div class="question" id="question6_1" style="display: none;">
@@ -1073,22 +883,21 @@
     });
 
     nextBtn5_1.addEventListener('click', () => {
-      let selectedcomponents = [];
+      let selectedcomponents;
       for (const option of components) {
         if (option.checked) {
-          selectedcomponents.push(option.value);
+          selectedcomponents = option.value;
           break;
         }
       }
 
-      if (selectedcomponents.length > 0) {
+      if (selectedcomponents) {
         userChoices['components'] = selectedcomponents;
-
-        console.log(userChoices);
 
         showQuestions('question6_1');
       }
     });
+
 
     nextBtn6_1.addEventListener('click', () => {
       let selectedbudgetRange;
@@ -1195,6 +1004,8 @@
           selectedFeaturePreferences.push(option.value);
         }
       }
+
+      console.log(selectedFeaturePreferences); // Add this line
 
       if (selectedFeaturePreferences.length > 0) {
         userChoices['featurePreference'] = selectedFeaturePreferences;
@@ -1309,5 +1120,3 @@
       }
     });
   </script>
-</body>
-</html>

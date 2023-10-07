@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #365752;
+  background-color: #253b38;
 }
 
 /*------------------------------404 page--------------------------------*/
@@ -19,7 +19,7 @@ body {
 /*------------------------------navbar----------------------------------*/
 
 .navbar {
-  background-color: #333;
+  background-color: #272727;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -353,7 +353,7 @@ body {
 
 /*------------------------------questining system-----------------------*/
 
-.container {
+.questioning_container {
   max-width: 850px;
   margin: 5% auto;
   padding: 20px;
@@ -633,17 +633,17 @@ tr:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+.admin-panel h1 {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-label {
+.admin-panel label {
   display: block;
   margin-bottom: 5px;
 }
 
-input[type="text"],
+.admin-panel input[type="text"],
 textarea {
   width: 96%;
   padding: 10px;
@@ -652,12 +652,12 @@ textarea {
   border-radius: 3px;
 }
 
-input[type="checkbox"] {
+.admin-panel input[type="checkbox"] {
   margin-right: 5px;
   margin-bottom: 15px;
 }
 
-input[type="number"] {
+.admin-panel input[type="number"] {
   width: 96%;
   padding: 10px;
   margin-bottom: 15px;
@@ -667,7 +667,7 @@ input[type="number"] {
   background-color: #f8f8f8;
 }
 
-select {
+.admin-panel select {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -678,7 +678,7 @@ select {
   cursor: pointer;
 }
 
-input[type="submit"] {
+.admin-panel input[type="submit"] {
   background-color: #007bff;
   color: #fff;
   padding: 10px 20px;
@@ -687,7 +687,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+.admin-panel input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
@@ -819,3 +819,4 @@ input[type="submit"]:hover {
 .register-button:hover {
   color: #218838;
 }
+

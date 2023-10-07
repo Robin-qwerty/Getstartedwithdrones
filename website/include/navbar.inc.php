@@ -3,7 +3,7 @@
         <ul>
             <li><a href="index.php?page=home">Home</a></li>
             <li><a href="index.php?page=articles">Articles</a></li>
-            <li><a href="questioning_system_test.html">Get started with drones quiz</a></li>
+            <li><a href="index.php?page=questioning_system">Get started with drones quiz</a></li>
             <li><a href="https://discord.gg/yKvbd7sEFR" target="_blank">Join the Discord server</a></li>
             <li><a href="index.php?page=login">Login</a></li>
         </ul>
