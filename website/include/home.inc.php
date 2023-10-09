@@ -1,4 +1,6 @@
-<section class="guideshowcase-section">
+<section class="homepage-section1 guideshowcase-section">
+    <h1>What is the get started with drones guid how can it help me?</h1>
+    <hr>
     <div class="guideshowcase-div">
         <div>
             <h2>Why Try This Guide?</h2>
@@ -20,32 +22,122 @@
             <img src="media/your-background-image.png" alt="Your Image Description" class="guideshowcase-image">
         </div>
     </div>
+    <hr>
     
-    <h2>Make the test now to find out what drones fits you best!</h2>
-    <a href="questioning_system_test.html" class="start-test-button">Start Test</a>
+    <h2>Ready to Get Started?</h2>
+    <p>Take our quick quiz to discover the perfect drone for you!</p>
+    <a href="questioning_system_test.html" class="start-test-button">I Want To Do The Test Now!</a>
 </section>
 
-<section class="article-section">
-    <h2>Latest Articles</h2>
-    <div class="article-cards-container">
-        <div class="article-card">
-            <img src="article1.jpg" alt="Article 1">
-            <h3>Article Title 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
-            <a href="index.php?page=article&articleid=">Read More</a>
+<section class="homepage-section2">
+    <div class="article-section">
+        <h2>Latest Articles</h2>
+        <hr>
+        <div class="article-cards-container">
+            <div class="article-card">
+                <!-- <img src="article1.jpg" alt="Article 1"> -->
+                <h3>Article Title 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article2.jpg" alt="Article 2"> -->
+                <h3>Article Title 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
+                <h3>Article Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
+                <h3>Article Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
+                <h3>Article Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
+            <div class="article-card">
+                <!-- <img src="article3.jpg" alt="Article 3"> -->
+                <h3>Article Title 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
+                <a href="index.php?page=article&articleid=">Read More</a>
+            </div>
         </div>
-        <div class="article-card">
-            <img src="article2.jpg" alt="Article 2">
-            <h3>Article Title 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
-            <a href="index.php?page=article&articleid=">Read More</a>
-        </div>
-        <div class="article-card">
-            <img src="article3.jpg" alt="Article 3">
-            <h3>Article Title 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in magna id...</p>
-            <a href="index.php?page=article&articleid=">Read More</a>
-        </div>
+    </div>
+
+    <div class="simulator-info">
+        <h2>FPV Simulator Training</h2>
+        <hr>
+        <p>Simulators are a great way to practice FPV flying without risking damage to your drone. They offer a safe environment to hone your piloting skills.</p>
+
+        <h3>Why Use FPV Simulators?</h3>
+        <p>Using an FPV simulators provide some benefits:</p>
+        <ul>
+            <li>Safe environment for learning and practicing.</li>
+            <li>Cost-effective compared to real drone repairs.</li>
+            <li>Helps improve piloting skills and confidence.</li>
+        </ul>
+
+        <h3>Recommended Transmitters for Simulator Training</h3>
+        <p>For simulators, you can start with affordable transmitters like the Flysky FS-i6 or the FrSky Taranis Q X7. These transmitters offer good performance for beginners.</p>
+
+        <h3>Popular FPV Simulators</h3>
+        <p>Some popular FPV simulators include:</p>
+        <ul>
+            <li>VelociDrone</li>
+            <li>Liftoff</li>
+            <li>FPV Freerider</li>
+        </ul>
+
+        <p>Here is the only free simulator that we reccomend using:</p>
+        <ul>
+            <li>FPV.Skydive</li>
+        </ul>
+
+        <p>Explore these simulators to find the one that suits you best.</p>
+
+        <a href="index.php?page=article&articleid=" class="info-button">Learn More</a>
+
+        <img src="simulator.jpg" alt="Faild to load in photo: FPV Simulator" class="simulator-image">
+    </div>
+
+    <div class="simulator-info">
+        <h2>FPV Simulator Training</h2>
+        <hr>
+        <p>Simulators are a great way to practice FPV flying without risking damage to your drone. They offer a safe environment to hone your piloting skills.</p>
+
+        <h3>Why Use FPV Simulators?</h3>
+        <p>FPV simulators provide the following benefits:</p>
+        <ul>
+            <li>Safe environment for learning and practicing.</li>
+            <li>Cost-effective compared to real drone repairs.</li>
+            <li>Helps improve piloting skills and confidence.</li>
+        </ul>
+
+        <h3>Recommended Transmitters for Simulator Training</h3>
+        <p>For simulators, you can start with affordable transmitters like the Flysky FS-i6 or the FrSky Taranis Q X7. These transmitters offer good performance for beginners.</p>
+
+        <h3>Popular FPV Simulators</h3>
+        <p>Some popular FPV simulators include:</p>
+        <ul>
+            <li>VelociDrone</li>
+            <li>Liftoff</li>
+            <li>FPV Freerider</li>
+        </ul>
+
+        <p>Explore these simulators to find the one that suits you best.</p>
+
+        <a href="index.php?page=article&articleid=" class="info-button">Learn More</a>
+
+        <img src="simulator.jpg" alt="Faild to load in photo: FPV Simulator" class="simulator-image">
     </div>
 </section>
 
