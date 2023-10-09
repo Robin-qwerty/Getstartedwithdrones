@@ -418,34 +418,34 @@
     </div>
 
     <!-- Question 5.1: does the user have any components already -->
-<div class="question" id="question5_1" style="display: none;">
-  <h2>Do you already have any of these components that you would like to use for your new drone?</h2>
-  <div class="options">
-    <div class="option">
-      <input type="checkbox" name="components[]" value="transmitter" id="transmitterOption">
-      <label for="transmitterOption">A transmitter</label>
+    <div class="question" id="question5_1" style="display: none;">
+      <h2>Do you already have any of these components that you would like to use for your new drone?</h2>
+      <div class="options">
+        <div class="option">
+          <input type="checkbox" name="components[]" value="transmitter" id="transmitterOption">
+          <label for="transmitterOption">A transmitter</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" name="components[]" value="goggles" id="gogglesOption">
+          <label for="gogglesOption">FPV goggles</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" name="components[]" value="charger" id="chargerOption">
+          <label for="chargerOption">Battery charger</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" name="components[]" value="batteries" id="batteriesOption">
+          <label for="batteriesOption">Batteries</label>
+        </div>
+        <div class="option">
+          <input type="radio" name="components[]" value="none" id="noneOption">
+          <label for="noneOption">None of the above</label>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button id="nextBtn5_1" disabled>Next</button>
+      </div>
     </div>
-    <div class="option">
-      <input type="checkbox" name="components[]" value="goggles" id="gogglesOption">
-      <label for="gogglesOption">FPV goggles</label>
-    </div>
-    <div class="option">
-      <input type="checkbox" name="components[]" value="charger" id="chargerOption">
-      <label for="chargerOption">Battery charger</label>
-    </div>
-    <div class="option">
-      <input type="checkbox" name="components[]" value="batteries" id="batteriesOption">
-      <label for="batteriesOption">Batteries</label>
-    </div>
-    <div class="option">
-      <input type="radio" name="components[]" value="none" id="noneOption">
-      <label for="noneOption">None of the above</label>
-    </div>
-  </div>
-  <div class="btn-container">
-    <button id="nextBtn5_1" disabled>Next</button>
-  </div>
-</div>
 
 <script>
   const noneOption = document.getElementById('noneOption');
@@ -856,10 +856,10 @@
     const nextBtn8_1 = document.getElementById('nextBtn8_1');
     const droneSize = document.getElementsByName('droneSize');
     const nextBtn9_1 = document.getElementById('nextBtn9_1');
-    const droneregulationsbasicknowledgeInfoBox = document.getElementById("droneregulationsbasicknowledgeInfoBox");
-    const nextBtndroneregulationsnotinformedInfo = document.getElementById("nextBtndroneregulationsnotinformedInfo");
     const droneregulationsnotinformedInfoBox = document.getElementById("droneregulationsnotinformedInfoBox");
     const nextBtndroneregulationsbasicknowledgeInfo = document.getElementById("nextBtndroneregulationsbasicknowledgeInfo");
+    const droneregulationsbasicknowledgeInfoBox = document.getElementById("droneregulationsbasicknowledgeInfoBox");
+    const nextBtndroneregulationsnotinformedInfo = document.getElementById("nextBtndroneregulationsnotinformedInfo");
     const regulationsKnowledge = document.getElementsByName('regulationsKnowledge');
     const nextBtn10_1 = document.getElementById('nextBtn10_1');
     const featurePreference = document.getElementsByName('featurePreference');
@@ -1177,8 +1177,8 @@
     });
 
     nextBtndroneregulationsnotinformedInfo.addEventListener('click', () => {
-      const question9_1Div = document.getElementById('question8_1');
-      const question10_1Div = document.getElementById('question9_1');
+      const question9_1Div = document.getElementById('question9_1');
+      const question10_1Div = document.getElementById('question10_1');
       const droneregulationsnotinformedInfoBoxDiv = document.getElementById('droneregulationsnotinformedInfoBox');
 
       if (question9_1Div && question10_1Div && droneregulationsnotinformedInfoBoxDiv) {

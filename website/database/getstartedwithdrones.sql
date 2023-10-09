@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2023 at 11:20 PM
+-- Generation Time: Oct 08, 2023 at 03:34 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -24,6 +24,33 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `camera_drones`
+--
+
+CREATE TABLE `camera_drones` (
+  `id` int(11) NOT NULL,
+  `camera_drone_name` varchar(55) DEFAULT NULL,
+  `description` TEXT DEFAULT NULL,
+  `price` DECIMAL(10, 2) DEFAULT NULL,
+  `max_flight_time` INT DEFAULT NULL  COMMENT 'in minutes',
+  `max_speed` DECIMAL(5, 2) DEFAULT NULL  COMMENT 'in meters per second',
+  `max_range` DECIMAL(8, 2) DEFAULT NULL  COMMENT 'in kilometers',
+  `camera_resolution` VARCHAR(20) DEFAULT NULL,
+  `camera_stabilization` VARCHAR(50) DEFAULT NULL  COMMENT 'e.g., "3-axis gimbal"',
+  `photo_quality` VARCHAR(50) DEFAULT NULL,
+  `video_quality` VARCHAR(50) DEFAULT NULL,
+  `gps_support` BOOLEAN DEFAULT NULL,
+  `obstacle_avoidance` BOOLEAN DEFAULT NULL,
+  `foldable_design` BOOLEAN DEFAULT NULL,
+  `weight` DECIMAL(6, 2) DEFAULT NULL  COMMENT 'in kilograms',
+  `release_date` DATE DEFAULT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `fpv_goggles`
 --
 
@@ -31,7 +58,7 @@ CREATE TABLE `fpv_goggles` (
   `id` int(11) NOT NULL,
   `goggles_name` varchar(255) NOT NULL,
   `manufacturer` varchar(255) NOT NULL,
-  `description` text NOT NULL,
+  `description` TEXT NOT NULL,
   `receiver_type` varchar(50) DEFAULT NULL,
   `receiver_upgradable` tinyint(1) DEFAULT NULL,
   `receiver_replaceable` tinyint(1) DEFAULT NULL,
@@ -53,7 +80,10 @@ CREATE TABLE `fpv_goggles` (
   `battery_voltage` varchar(50) DEFAULT NULL,
   `power_consumption` varchar(50) DEFAULT NULL,
   `user_manual` varchar(255) DEFAULT NULL,
-  `other_features` text DEFAULT NULL
+  `release_date` DATE,
+  `other` text DEFAULT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -65,8 +95,8 @@ CREATE TABLE `fpv_goggles` (
 CREATE TABLE `fpv_prebuilds` (
   `id` int(11) NOT NULL,
   `fpv_prebuild_name` varchar(55) NOT NULL,
-  `manufacturer` varchar(255) NOT NULL,
-  `description` text NOT NULL,
+  `manufacturer` TEXT NOT NULL,
+  `description` TEXT NOT NULL,
   `drone_class` tinyint(2) DEFAULT NULL COMMENT '1=race\r\n2=freestyle\r\n3=race/freestyle\r\n4=cinewhoop\r\n5=cinelifter\r\n6=tinywhoop',
   `frame` varchar(128) DEFAULT NULL,
   `arms` int(3) DEFAULT NULL COMMENT 'arm thickness in mm',
@@ -94,8 +124,11 @@ CREATE TABLE `fpv_prebuilds` (
   `strap` varchar(128) DEFAULT NULL COMMENT 'battery strap',
   `led_lighting` varchar(128) DEFAULT NULL,
   `battery_conector` varchar(45) DEFAULT NULL,
+  `release_date` DATE,
   `other` varchar(255) DEFAULT NULL,
-  `beginner_friendly` int(2) DEFAULT NULL COMMENT '0=not_beginner_friendly\r\n10=beginner_friendly'
+  `beginner_friendly` int(2) DEFAULT NULL COMMENT '0=not_beginner_friendly\r\n10=beginner_friendly',
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -137,7 +170,9 @@ CREATE TABLE `media` (
   `id` int(11) NOT NULL,
   `place_id` int(11) NOT NULL,
   `name` varchar(45) DEFAULT NULL,
-  `media_dir` varbinary(255) NOT NULL
+  `media_dir` varbinary(255) NOT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -150,7 +185,7 @@ CREATE TABLE `transmitters` (
   `id` int(11) NOT NULL,
   `transmitter_name` varchar(45) NOT NULL,
   `manufacturer` varchar(255) NOT NULL,
-  `description` text NOT NULL,
+  `description` TEXT NOT NULL,
   `weight` varchar(45) DEFAULT NULL,
   `buildin_rf` varchar(128) DEFAULT NULL,
   `supported_protocols` varchar(128) DEFAULT NULL,
@@ -174,7 +209,10 @@ CREATE TABLE `transmitters` (
   `length_width_height` varchar(55) DEFAULT NULL,
   `built_material` varchar(45) DEFAULT NULL,
   `user_manual` varchar(252) DEFAULT NULL,
-  `other` varchar(255) DEFAULT NULL
+  `release_date` DATE,
+  `other` varchar(255) DEFAULT NULL,
+  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -194,6 +232,12 @@ INSERT INTO `transmitters` (`id`, `transmitter_name`, `manufacturer`, `descripti
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `camera_drones`
+--
+ALTER TABLE `camera_drones`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `fpv_goggles`
@@ -228,6 +272,12 @@ ALTER TABLE `transmitters`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `camera_drones`
+--
+ALTER TABLE `camera_drones`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `fpv_goggles`
