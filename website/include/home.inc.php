@@ -26,7 +26,7 @@
     
     <h2>Ready to Get Started?</h2>
     <p>Take our quick quiz to discover the perfect drone for you!</p>
-    <a href="questioning_system_test.html" class="start-test-button">I Want To Do The Test Now!</a>
+    <a href="index.php?page=questioning_system" class="start-test-button">I Want To Do The Test Now!</a>
 </section>
 
 <section class="homepage-section2">
